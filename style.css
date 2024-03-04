@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-image: url('victor-furtuna-0mchrVHAYzg-unsplash.jpg');
+    
+} */
+section{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.logo{
+    flex: 1;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-weight: 700;
+    font-size: 20px;
+}
+.links{
+    width: 520px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links a{
+    text-decoration: none;
+    padding: 15px;
+   display: inline-flex;
+   justify-content: space-between;
+   color: white;
+    
+}
+
+.links a#active,a:hover{
+    color: aqua;
+}
+.hero-sec{
+    display: flex;
+   
+    
+}
+.Home-page{
+    background-image: url('victor-furtuna-0mchrVHAYzg-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-sec .para{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -580px;
+    margin-top: -100px;
+    color: white;
+
+}
+/* .hero-sec img{
+    width: 250px;
+    height: 250px;
+    margin-right: -500px;
+} */
+.cars-img{
+    display: flex;
+    align-items: center;
+}
+.cars-img img{
+    width: 450px;
+    height: 400px;
+}
+/* .heading{
+    position: relative;
+} */
+.heading h2{
+    font-size: 35px;
+    text-align: center;
+}
+.heading p{
+    font-size: 18px;
+    /* position: absolute; */
+}
+.about-sec{
+    overflow-x: hidden;
+}
+.Contact-page{
+    display: flex;
+    margin-top: -170px;
+}
+.Contact-page .contact-img img{
+    width: 400px;
+    height: 300px;
+    border-right: 1px solid black;
+}
+.contact-form{
+    padding-left: 10px;
+}
+.contact-form button{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 20px;
+}
